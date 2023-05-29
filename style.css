@@ -20,7 +20,7 @@ body {
     margin-right: -15px;
 }
 
-.row::after {
+.row::after, .menu::after {
     content: "";
     clear: both;
     display: block;
@@ -53,7 +53,35 @@ body {
     padding: 25px 0;
 }
 
+.menu > li{
+    float: left;
+    width: 25%;
+    border-left: 2px solid rgba(20, 20, 20, 0.65);
+}
+
+.menu > li:last-child {
+    border-right: 2px solid rgba(20, 20, 20, 0.65);
+}
+
+.menu > li > a {
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    font-size: 21px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.menu > li > a:hover {
+    background-color: rgba(20, 20, 20, 0.65);
+    color: white;
+}
+
 .logo > a > img {
     width: 100%;
     height: 50px;
 }
+
