@@ -63,6 +63,7 @@ body {
     border-right: 2px solid rgba(20, 20, 20, 0.65);
 }
 
+
 .menu > li > a {
     display: block;
     text-decoration: none;
@@ -85,3 +86,46 @@ body {
     height: 50px;
 }
 
+.search {
+    border: 1px soalid rgba(20, 20, 20, 0.65);
+    padding: 5px;
+}
+
+.input-search-text {
+    width: 75%;
+    /* border: none;
+    background: transparent; */
+    font-size: 21px;    
+    height: 40px;
+    line-height: 40px;
+}
+
+.input-search-text:focus {
+    border: none;
+}
+
+.input-search-button {
+    width: 40px;
+    height: 100%;
+}
+
+.cart {
+    position: relative;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.products-count {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(202, 20, 20);
+    border-radius: 50%;
+    top: -10px;
+    left: -10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
